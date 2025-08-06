@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Advanced_C__04
 {
@@ -94,6 +96,41 @@ namespace Advanced_C__04
             //{
             //    Console.WriteLine("Key Not Founded");
             //}
+            #endregion
+
+            #region Q4
+            //string[] words = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            //
+            //var grouped = GroupAnagrams(words);
+            //
+            //foreach (var group in grouped)
+            //{
+            //    Console.WriteLine("[ " + string.Join(", ", group) + " ]");
+            //}
+            #endregion
+        }
+
+        #region Fun Q4
+        //static List<List<string>> GroupAnagrams(string[] strs)
+        //
+        //{
+        //    Dictionary<string, List<string>> map = new Dictionary<string, List<string>>();
+        //
+        //    foreach (string word in strs)
+        //    {
+        //        char[] chars = word.ToCharArray();
+        //        Array.Sort(chars);
+        //        string key = new string(chars);
+        //
+        //        if (!map.ContainsKey(key))
+        //        {
+        //            map[key] = new List<string>();
+        //        }
+        //        map[key].Add(word);
+        //    }
+        //
+        //    return map.Values.ToList();
+
             #endregion
 
         }
