@@ -30,44 +30,72 @@ namespace Advanced_C__04
             #endregion
 
             #region Q2
-           // Hashtable table = new Hashtable
-           // {
-           //     { "apple", 5 },
-           //     { "banana", "twelve" },
-           //     { "cherry", 7 },
-           //     { "date", 3 }
-           // };
-           //
-           // object maxKey = null;
-           // int maxValue = int.MinValue;
-           //
-           // foreach (DictionaryEntry entry in table)
-           // {
-           //     if (entry.Value is int value)
-           //     {
-           //         if (value > maxValue)
-           //         {
-           //             maxValue = value;
-           //             maxKey = entry.Key;
-           //         }
-           //     }
-           //     else
-           //     {
-           //         Console.WriteLine($"Skipping key '{entry.Key}' with non-integer value.");
-           //     }
-           // }
-           //
-           // if (maxKey != null)
-           // {
-           //     Console.WriteLine($"Key with highest integer value: {maxKey} (Value: {maxValue})");
-           // }
-           // else
-           // {
-           //     Console.WriteLine("No integer values found in the Hashtable.");
-           //
-           // }
+            // Hashtable table = new Hashtable
+            // {
+            //     { "apple", 5 },
+            //     { "banana", "twelve" },
+            //     { "cherry", 7 },
+            //     { "date", 3 }
+            // };
+            //
+            // object maxKey = null;
+            // int maxValue = int.MinValue;
+            //
+            // foreach (DictionaryEntry entry in table)
+            // {
+            //     if (entry.Value is int value)
+            //     {
+            //         if (value > maxValue)
+            //         {
+            //             maxValue = value;
+            //             maxKey = entry.Key;
+            //         }
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine($"Skipping key '{entry.Key}' with non-integer value.");
+            //     }
+            // }
+            //
+            // if (maxKey != null)
+            // {
+            //     Console.WriteLine($"Key with highest integer value: {maxKey} (Value: {maxValue})");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("No integer values found in the Hashtable.");
+            //
+            // }
+            #endregion
+
+            #region Q3
+            //Hashtable table = new Hashtable
+            //{
+            //    {"Key 1" , "apple" },
+            //    {"Key 2" , "bannana" },
+            //    {"Key 3" , "apple" }
+            //};
+            //
+            //Console.WriteLine("Enter Your Target Value : ");
+            //string targetValue = Console.ReadLine();
+            //
+            //bool Founded = false;
+            //
+            //foreach (DictionaryEntry entry in table)
+            //{
+            //    if (entry.Value != null && entry.Value.ToString() == targetValue)
+            //    {
+            //        Console.WriteLine(entry.Key);
+            //        Founded = true;
+            //    }
+            //}
+            //
+            //if (!Founded)
+            //{
+            //    Console.WriteLine("Key Not Founded");
+            //}
             #endregion
 
         }
-}
+    }
 }
