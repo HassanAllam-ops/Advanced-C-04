@@ -29,6 +29,45 @@ namespace Advanced_C__04
             //}
             #endregion
 
+            #region Q2
+           // Hashtable table = new Hashtable
+           // {
+           //     { "apple", 5 },
+           //     { "banana", "twelve" },
+           //     { "cherry", 7 },
+           //     { "date", 3 }
+           // };
+           //
+           // object maxKey = null;
+           // int maxValue = int.MinValue;
+           //
+           // foreach (DictionaryEntry entry in table)
+           // {
+           //     if (entry.Value is int value)
+           //     {
+           //         if (value > maxValue)
+           //         {
+           //             maxValue = value;
+           //             maxKey = entry.Key;
+           //         }
+           //     }
+           //     else
+           //     {
+           //         Console.WriteLine($"Skipping key '{entry.Key}' with non-integer value.");
+           //     }
+           // }
+           //
+           // if (maxKey != null)
+           // {
+           //     Console.WriteLine($"Key with highest integer value: {maxKey} (Value: {maxValue})");
+           // }
+           // else
+           // {
+           //     Console.WriteLine("No integer values found in the Hashtable.");
+           //
+           // }
+            #endregion
+
         }
-    }
+}
 }
