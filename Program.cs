@@ -193,25 +193,39 @@ namespace Advanced_C__04
             #endregion
 
             #region Q10
-           //Hashtable Original = new Hashtable
-           //{
-           //    {"Hassan" , 1},
-           //    {"Essam" , 2},
-           //    {"Allam" , 3}
-           //};
-           //
-           //Hashtable Swaped = new Hashtable();
-           //
-           //foreach (DictionaryEntry entry in Original)
-           //{
-           //    Swaped[entry.Value] = entry.Key;
-           //}
-           //
-           //Console.WriteLine("Swaped Hash Table : ");
-           //foreach (DictionaryEntry entry in Swaped)
-           //{
-           //    Console.WriteLine($"{entry.Key} ==> {entry.Value}");
-           //}
+            //Hashtable Original = new Hashtable
+            //{
+            //    {"Hassan" , 1},
+            //    {"Essam" , 2},
+            //    {"Allam" , 3}
+            //};
+            //
+            //Hashtable Swaped = new Hashtable();
+            //
+            //foreach (DictionaryEntry entry in Original)
+            //{
+            //    Swaped[entry.Value] = entry.Key;
+            //}
+            //
+            //Console.WriteLine("Swaped Hash Table : ");
+            //foreach (DictionaryEntry entry in Swaped)
+            //{
+            //    Console.WriteLine($"{entry.Key} ==> {entry.Value}");
+            //}
+            #endregion
+
+            #region Q11
+            //HashSet<int> Set1 = new HashSet<int> { 1, 2, 3 , 4 , 5 , 6};
+            //HashSet<int> Set2 = new HashSet<int> { 5 , 6 , 7 , 8 , 9 , 10 };
+            //
+            //HashSet<int> UnionSet = new HashSet<int>(Set1);
+            //UnionSet.UnionWith(Set2);
+            //
+            //Console.WriteLine("Union Set :");
+            //foreach (int num in UnionSet)
+            //{
+            //    Console.WriteLine(num);
+            //}
             #endregion
         }
 
