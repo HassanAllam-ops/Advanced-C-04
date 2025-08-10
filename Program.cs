@@ -179,6 +179,18 @@ namespace Advanced_C__04
             //Console.WriteLine("Missing Numbers Is : ");
             //foreach (int i in Missing) Console.WriteLine(i);
             #endregion
+
+            #region Q9
+           //List<int> numbers = new List<int> {1 , 1 , 2 , 3 , 4 , 4 , 5 , 5 , 6 , 7 , 7 };
+           //
+           //HashSet<int> UniqueNumbers = new HashSet<int>(numbers);
+           //
+           //Console.WriteLine("Unique Numbers : ");
+           //foreach (int num in UniqueNumbers)
+           //{
+           //    Console.WriteLine(num);
+           //}
+            #endregion
         }
 
         #region Fun Q4
@@ -237,7 +249,6 @@ namespace Advanced_C__04
         //    return MissingNumbers;
         //}
         #endregion
-
     }
 }
 
