@@ -169,6 +169,16 @@ namespace Advanced_C__04
             //    Console.WriteLine($"Employee Id = {display.Key} , Employee Name = {display.Value}");
             //}
             #endregion
+
+            #region Q8
+            //int[] array = { 1, 2, 4, 5, 7 };
+            //int N = 7;
+            //
+            //List<int> Missing = FindMissingNumbers(array, N);
+            //
+            //Console.WriteLine("Missing Numbers Is : ");
+            //foreach (int i in Missing) Console.WriteLine(i);
+            #endregion
         }
 
         #region Fun Q4
@@ -207,6 +217,24 @@ namespace Advanced_C__04
         //        seen.Add(num);
         //    }
         //    return false;
+        //}
+        #endregion
+
+        #region Fun Q8
+        //static List<int> FindMissingNumbers(int[] inputArray, int N)
+        //{
+        //    HashSet<int> PresentNumbers = new HashSet<int>(inputArray);
+        //
+        //    List<int> MissingNumbers = new List<int>();
+        //
+        //    for (int i = 1; i <= N; i++)
+        //    {
+        //        if (!PresentNumbers.Contains(i))
+        //        {
+        //            MissingNumbers.Add(i);
+        //        }
+        //    }
+        //    return MissingNumbers;
         //}
         #endregion
 
