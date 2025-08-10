@@ -114,6 +114,36 @@ namespace Advanced_C__04
             //bool hasDuplicates = ContainDuplicates(array);
             //Console.WriteLine($"Contains Duplicates?" + hasDuplicates);
             #endregion
+
+            #region Q6
+            //SortedDictionary<int, string> Students = new SortedDictionary<int, string>();
+            //
+            //// Add Students
+            //Students.Add(3, "Allam");
+            //Students.Add(1, "Hassan");
+            //Students.Add(2, "Essam");
+            //Students.Add(4, "Ahmed");
+            //
+            //// retrieving student names (by id)
+            //int SearchId = 2;
+            //if (Students.TryGetValue(SearchId , out string name))
+            //{
+            //    Console.WriteLine($"Student Id ({SearchId}) His Name {name}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Student Id {SearchId} Not Found.");
+            //}
+            //
+            //// Remove Student
+            //Students.Remove(4);
+            //
+            //// Display all Students to make Sure this student if removed or not and if they sorted or not.
+            //foreach(var display in Students)
+            //{
+            //    Console.WriteLine($"Id : {display.Key} , Name : {display.Value}");
+            //}
+            #endregion
         }
 
         #region Fun Q4
