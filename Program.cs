@@ -144,6 +144,31 @@ namespace Advanced_C__04
             //    Console.WriteLine($"Id : {display.Key} , Name : {display.Value}");
             //}
             #endregion
+
+            #region Q7
+            //SortedList<int , string> EmployeeDictionary = new SortedList<int , string>();
+            //
+            //EmployeeDictionary.Add(5 , "Mahmoud");
+            //EmployeeDictionary.Add(8, "Hamada");
+            //EmployeeDictionary.Add(7, "Omar");
+            //EmployeeDictionary.Add(6 , "Mohamed");
+            //
+            //int ifEmployeeFound = 6;
+            //if (EmployeeDictionary.TryGetValue(ifEmployeeFound, out string name)) 
+            //{
+            //    Console.WriteLine($"Employee Id = {ifEmployeeFound} And His Name Is {name}"); 
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Employee Id = {ifEmployeeFound} Not Founded");
+            //}
+            //Console.WriteLine();
+            //
+            //foreach (var display in EmployeeDictionary)
+            //{
+            //    Console.WriteLine($"Employee Id = {display.Key} , Employee Name = {display.Value}");
+            //}
+            #endregion
         }
 
         #region Fun Q4
