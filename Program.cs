@@ -274,7 +274,31 @@ namespace Advanced_C__04
             //}
             #endregion
 
-           
+            #region Q14
+            //SortedList<int, int> SortedList = new SortedList<int, int>
+            //{
+            //      { 1, 11 },
+            //      { 2, 20 },
+            //      { 3, 33 },
+            //      { 4, 44 },
+            //      { 5, 55 },
+            //      { 6, 60 }
+            //};
+            //
+            //List<int> evenNums = new List<int>();
+            //
+            //foreach (var num in SortedList)
+            //{
+            //    if (num.Value % 2 == 1)
+            //        evenNums.Add(num.Key);
+            //}
+            //
+            //Console.WriteLine("Keys With Even Numbers : ");
+            //foreach (int key in evenNums)
+            //{
+            //    Console.WriteLine(key);
+            //}
+            #endregion
 
 
         }
