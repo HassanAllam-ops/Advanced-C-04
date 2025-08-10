@@ -108,6 +108,12 @@ namespace Advanced_C__04
             //    Console.WriteLine("[ " + string.Join(", ", group) + " ]");
             //}
             #endregion
+
+            #region Q5
+            //int[] array = { 30, 55, 12, 16, 31, 12, 16, 31, 90, 55 };
+            //bool hasDuplicates = ContainDuplicates(array);
+            //Console.WriteLine($"Contains Duplicates?" + hasDuplicates);
+            #endregion
         }
 
         #region Fun Q4
@@ -131,8 +137,24 @@ namespace Advanced_C__04
         //
         //    return map.Values.ToList();
 
-            #endregion
+        #endregion
 
-        }
+        #region Fun Q5
+        //static bool ContainDuplicates(int[] nums)
+        //{
+        //    HashSet<int> seen = new HashSet<int>();
+        //    foreach (int num in nums)
+        //    {
+        //        if (seen.Contains(num))
+        //        {
+        //            return true;
+        //        }
+        //        seen.Add(num);
+        //    }
+        //    return false;
+        //}
+        #endregion
+
     }
 }
+
