@@ -255,7 +255,28 @@ namespace Advanced_C__04
 
             #endregion
 
-            
+            #region Q13
+            //SortedSet<int> SortedSet = new SortedSet<int> { 5, 10, 15, 20, 25, 30, 35, 40 };
+            //
+            //Console.WriteLine("Enter Your Target Integar");
+            //int target = Convert.ToInt32(Console.ReadLine());
+            //
+            //List<int> list = new List<int>();
+            //foreach (int item in SortedSet)
+            //{
+            //    if (item > target) list.Add(item);
+            //}
+            //
+            //Console.WriteLine("Elements greater than target:");
+            //foreach (int num in list)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            #endregion
+
+           
+
+
         }
 
         #region Fun Q4
@@ -315,5 +336,6 @@ namespace Advanced_C__04
         //}
         #endregion
     }
+}
 
 
