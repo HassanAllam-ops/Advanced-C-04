@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -227,6 +228,34 @@ namespace Advanced_C__04
             //    Console.WriteLine(num);
             //}
             #endregion
+
+            #region Q12
+            //    Dictionary<string, int> MyDic = new Dictionary<string, int>
+            //    {
+            //        {"apple",1},
+            //       {"animal",2},
+            //       {"airport",3}
+            //
+            //    };
+            //
+            //    Console.WriteLine("Enter Target Character : ");
+            //    char targetChar = Console.ReadLine()[0];
+            //
+            //    int count = 0;
+            //    foreach (var key in MyDic.Keys)
+            //    {
+            //        if (!string.IsNullOrEmpty(key) && key.StartsWith(targetChar.ToString(), StringComparison.OrdinalIgnoreCase))
+            //        {
+            //            count++;
+            //        }
+            //    }
+            //
+            //    Console.WriteLine($"Number of keys starting with '{targetChar}': {count}");
+            //}
+
+            #endregion
+
+            
         }
 
         #region Fun Q4
@@ -286,5 +315,5 @@ namespace Advanced_C__04
         //}
         #endregion
     }
-}
+
 
